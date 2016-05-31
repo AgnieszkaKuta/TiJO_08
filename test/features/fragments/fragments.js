@@ -28,7 +28,7 @@ var fragments = function (text)
 
     var mapping = {
         button: element.bind(null, by.css('.btn')),
-        type: elementbind(null, by.binding('fifa.type')),
+        type: element.bind(null, by.binding('fifa.type')),
         fifa: element.bind(null, by.css('.table')),
         rank: element.bind(null, by.css('td:nth-of-type(1)')),
         team: element.bind(null, by.css('td:nth-of-type(2)')),
